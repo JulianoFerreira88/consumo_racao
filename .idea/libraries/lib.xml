@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/lib/jfreechart-demo-1.5.2-jar-with-dependencies (1).jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jaybird-full-2.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jcommon-1.0.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jfreechart-1.0.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jcommon-1.0.23-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jfreechart-1.0.19-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

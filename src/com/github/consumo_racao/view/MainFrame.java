@@ -52,6 +52,9 @@ public class MainFrame extends javax.swing.JFrame {
         listRacoes.setForeground(new java.awt.Color(0, 255, 204));
         listRacoes.setModel(getRacoesModel());
         listRacoes.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        listRacoes.setSelectionBackground(new java.awt.Color(255, 255, 255));
+        listRacoes.setSelectionForeground(new java.awt.Color(0, 0, 0));
+        listRacoes.setVisibleRowCount(4);
         listRacoes.addListSelectionListener(new javax.swing.event.ListSelectionListener() {
             public void valueChanged(javax.swing.event.ListSelectionEvent evt) {
                 listRacoesValueChanged(evt);
@@ -69,8 +72,8 @@ public class MainFrame extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 660, Short.MAX_VALUE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 660, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1))
                 .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
